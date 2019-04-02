@@ -1,0 +1,19 @@
+.spinner2 {
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem auto;
+    border: .4rem solid rgba(255, 255, 255, .2);
+    border-left-color: #fff;
+    border-radius: 50%;
+    animation: load 1.1s infinite linear;
+}
+
+@keyframes load {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
